@@ -1,0 +1,92 @@
+/* Primeira atividade */
+.grade1 {
+    height: 500px;
+    display: grid;
+    grid-template-areas:
+        "header header "
+        "nav conteudo "
+        "nav footer";
+
+    grid-template-columns: 20% auto;
+    grid-template-rows: 20% auto 15%;
+}
+
+.border {
+    border: 1px solid black;
+}
+
+header {
+    grid-area: header;
+    background-color: orchid;
+}
+
+nav {
+    grid-area: nav;
+    background-color: khaki;
+}
+
+#conteudo {
+    grid-area: conteudo;
+    background-color: salmon;
+}
+
+footer {
+    grid-area: footer;
+    background-color: mediumseagreen;
+}
+
+/* Final da atividade */
+
+/* Segunda atividade */
+.grade2 {
+    height: 500px;
+    display: grid;
+    grid-template-areas:
+        "item1 item1 item2 item2 item2"
+        "item1 item1 item4 item4 item5"
+        "item3 item3 item4 item4 item6";
+
+    grid-template-columns: repeat(20%);
+    grid-template-rows: repeat(20%);
+
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+#item1 {
+    grid-area: item1;
+    background-color: lightgreen;
+    border-radius: 10px;
+}
+
+#item2 {
+    grid-area: item2;
+    background-color: lightskyblue;
+    border-radius: 10px;
+}
+
+#item3 {
+    grid-area: item3;
+    background-color: lightpink;
+    border-radius: 10px;
+}
+
+#item4 {
+    grid-area: item4;
+    background-color: lightsalmon;
+    border-radius: 10px;
+}
+
+#item5 {
+    grid-area: item5;
+    background-color: lightseagreen;
+    border-radius: 10px;
+}
+
+#item6 {
+    grid-area: item6;
+    background-color: lightslategray;
+    border-radius: 10px;
+}
+
+/* Final da atividade */
